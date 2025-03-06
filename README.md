@@ -12,7 +12,8 @@
 - **Relatórios:** Geração de um relatório de orçamentos com filtros por período e por produto. O relatório exibe a totalização dos valores por orçamento, os itens detalhados e o total geral de todos os orçamentos.
 
 ## Estrutura do Projeto
-MinasBrasil/src
+````text
+src/
 ├── main.py                        # Ponto de entrada da aplicação; configura a interface e inicializa o banco de dados.
 ├── routes.py                      # Gerencia a navegação entre as páginas.
 ├── pages
@@ -32,7 +33,8 @@ MinasBrasil/src
 └── services
     ├── banco_de_dados.py          # Responsável pela conexão com o SQLite e criação das tabelas (incluindo a data de criação nos orçamentos).
     ├── log.py                     # Configuração do sistema de logging.
-    ├── dados_fakers.py            # Gerar dados fakers.
+    └── dados_fakers.py            # Gerar dados fakers.
+````
 
 ## Pré-requisitos
 - Python 3.12 ou superior.
